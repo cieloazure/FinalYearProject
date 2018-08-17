@@ -6,9 +6,7 @@
 
 ### What is this repository for? ###
 
-* KickIT Application recommendation engine
-* Idea by Jason Lobo
-* Under the guidance of Jason Lobo and Noel Christopher
+* Application recommendation engine
 
 ### How do I get set up? ###
 * Download Anaconda 3.19.1
