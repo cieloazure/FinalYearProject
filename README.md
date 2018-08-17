@@ -9,7 +9,6 @@
 * KickIT Application recommendation engine
 * Idea by Jason Lobo
 * Under the guidance of Jason Lobo and Noel Christopher
-* Under development by Eshan Kanade, Rakshit Chopra and Akash Shingte
 
 ### How do I get set up? ###
 * Download Anaconda 3.19.1
@@ -22,10 +21,4 @@
 
 * Any changes to the repository should be done on a separate branch and merged only after thorough review and tests
 
-### Who do I talk to? ###
 
-* akash.shingte@gmail.com
-* ekanade@gmail.com
-* rkshtchpr@gmail.com
-* lobojason@gmail.com
-* noelchristopher@gmail.com
