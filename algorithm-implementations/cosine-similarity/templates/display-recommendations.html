@@ -1,0 +1,22 @@
+<title>Recommendations</title>
+
+<h1>Recommendations</h1>
+
+<h2>User</h2>
+<h2>Email:{{user.email}}</h2>
+
+<ul>
+    {% for cat,item in categories_user %}
+    {% if item != 0  %}
+    <li>{{cat}} - {{item}}</li>
+    {% endif  %}
+    {% endfor   %}
+</ul>
+
+<h2>Recommendations</h2>
+
+<ul>
+    {% for place in places  %}
+    <li><b>{{place.Name}}</b>  =||=   {{place.Categories}}   =||= <b>{{place.metric}}</b></li>
+    {% endfor  %}
+</ul>

@@ -1,0 +1,12 @@
+<h1>Existing</h1>
+<form method="POST" action="http://localhost:5000/class/{{cat}}/existing">
+    <label>Existing class:</label>
+    {% for cls in classes %}
+    <input type="checkbox" value="{{cls.CategoryId}}" name="selection">{{cls.Name}}</option>
+    {% endfor %}
+    <br/>
+    <label>Parent class:{{cat}}</label>
+     <br/>
+    <input type="submit"/>
+    
+</form>

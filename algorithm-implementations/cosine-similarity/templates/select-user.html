@@ -1,0 +1,9 @@
+<title>Select Users</title>
+
+
+<form method ="POST" action = "http://localhost:5000/user">
+    {% for user in users  %}
+    <input type="checkbox" name="user" value="{{user.email}}">{{user.email}}</input>
+    {% endfor  %}
+    <input type="submit"/>
+</form>

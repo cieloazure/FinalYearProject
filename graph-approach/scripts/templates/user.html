@@ -1,0 +1,21 @@
+<h1>CREATE USER</h1>
+
+
+<form method='POST' action='http://localhost:5000/user'>
+    <label>Email</label>
+    <input type="text" name="email" id="email"/>
+    <label>Password</label>
+    <input type="password" name="password" id="password" />
+    <input type="submit"/>
+    <br/>
+    <br/>
+    {% for poi  in pois %}
+    <input type="checkbox" name="poi" value="{{poi.PoiId}}">{{poi.Name}}</input>
+    <p>{{poi.Categories}}</p>
+    <label>DOI</label>
+    <input type="text" name="{{poi.PoiId}}"/>
+    <br/>
+    <br/>
+    {% endfor  %}
+    
+</form>

@@ -1,0 +1,15 @@
+<title>User input</title>
+
+<form method="POST" action="http://localhost:5000/">
+<label>Enter email</label>
+<input name="email" id="email" type="text"/>
+
+<h6>Choose categories</h6>
+
+<ul>
+    {% for cat in categories  %}
+    <input type="checkbox" name="{{cat.Name|e}}" id="{{cat.Name|e}}" value="{{cat.Name|e}}">{{cat.Name|e}}</input>
+    {% endfor %}
+</ul>
+<input type="submit"/>
+</form>
